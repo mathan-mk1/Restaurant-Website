@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!----Top Nav Bar----->
+    <header>
+        <div class="navBar">
+           <img src="/image/logo.jpeg" alt="logo" height="60px" width="60px">
+        </div>
+        <div class="navBar">
+            <h1><a href="Others/contact.html">HOTEL NOVAH PARK INN</a></h1>
+        </div>
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+    <!----Hand Burger bar----->
+    <div class="barslide ">
+        <div class="links">
+            <a href="" class="link active">Home</a>
+            <a href="/Others/contact.html" class="link">Contact</a>
+            <a href="/Others/Designer.html" class="link">Web Designer</a>
+        </div>
+        <div class="bar-overlay">
+        </div>
+    </div>
+    <!----Designer----->
+    <nav>
+        <p><a href="/Others/Designer.html"> Designed by Mathan Kumar</a></p>
+    </nav>
+    <!--image slider-->
+        <div class="slideholder">
+            <div class="slider">
+                <div class="slides">
+                <!--radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--slide images-->
+                <div class="slide first">
+                    <img src="image/slide1.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/slide2.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/slide3.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/slide4.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/slide5.jpeg" alt="">
+                </div>
+                <!--automatic navigation-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                </div>
+                <!--manual navigation-->
+                <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    <!----Menu----->
+    <div class="gallery"><p>MENU</p>
+        <div class="row">
+            <div class="des"><a href="gallery/varities/biriyani/Biriyani.html"><img src="/gallery/1.jpg" alt="varities" width="400px" height="300px">Biriyani</a></div>
+            <div class="des"><a href="gallery/varities/meals/meals.html"><img src="/gallery/2.jpg" alt="varities" width="400px" height="300px">Meals</a></div>
+            <div class="des"><a href="gallery/varities/Fried Rice & Noodles/ff.html"><img src="/gallery/3.jpg" alt="varities" width="400px" height="300px">Rice&Noodles</a></div>
+        </div>
+        <div class="row">
+            <div class="des"><a href="gallery/varities/Porotta & Chapathi/p&c.html"><img src="/gallery/4.jpg" alt="varities" width="400px" height="300px">Poratta</a></div>
+            <div class="des"><a href="gallery/varities/Dosa & Idli/Dosa,idli.html"><img src="/gallery/5.jpg" alt="varities" width="400px" height="300px">Dosa&Idli</a></div>
+            <div class="des"><a href="gallery/varities/Non Veg/nonveg.html"><img src="/gallery/6.jpg" alt="varities" width="400px" height="300px">Non Veg</a></div>
+        </div>
+        <div class="row">
+
+            <div class="des"><a href="gallery/varities/Gravy/gravy.html"><img src="/gallery/7.jpg" alt="varities" width="400px" height="300px">Gravy</a></div>
+            <div class="des"><a href="gallery/varities/Starters/starter.html"><img src="/gallery/8.jpg" alt="varities" width="400px" height="300px">Starter</a></div>
+            <div class="des"><a href="gallery/varities/Egg/Eggs.html"><img src="/gallery/9.jpg" alt="varities" width="400px" height="300px">Egg</a></div>
+        </div>
+        <div class="row">
+            <div class="des"><a href="gallery/varities/Icecream/icecream.html"><img src="/gallery/11.jpg" alt="varities" width="400px" height="300px">Ice Cream</a></div>
+            <div class="des"><a href="gallery/varities/Beverages/beverage.html"><img src="/gallery/10.jpg" alt="varities" width="400px" height="300px">Beverages</a></div>
+            <div class="des"><a href="gallery/varities/Fruit juice/fj.html"><img src="/gallery/12.jpg" alt="varities" width="400px" height="300px">Fruit Juices</a></div>
+        </div>
+    </div>
+    <!----Map----->
+    <div class="gmap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.1409936898503!2d76.98418726932356!3d11.102868028950047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f74e4c2dc949%3A0x91c6a06742603ebb!2sNovah%20Park%20Inn!5e0!3m2!1sen!2sin!4v1692098404723!5m2!1sen!2sin" width="600" height="450" style="border: 2px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!----Bottom Bar----->
+    <div class="bottombar">
+        <h2><a href="/Others/contact.html">CONTACT US</a></h2>
+        <br>
+        <p>No.138, Sovukku Thoppu, Keeranatham Rd, CHIL SEZ IT Park, Saravanampatti, Coimbatore, Tamil Nadu 641035</p>
+        <br>
+        <p>Phone: +91 8667305536</p>  <br>
+        <h2>ITEMS</h2>
+        <br>
+        <ul class="btm">
+            <li><a href="gallery/varities/biriyani/Biriyani.html">Biriyani</a></li>
+            <li><a href="gallery/varities/meals/meals.html">Meals</a></li>
+            <li><a href="gallery/varities/Fried Rice & Noodles/ff.html">Fried Rice</a></li>
+            <li><a href="gallery/varities/Porotta & Chapathi/p&c.html">Poratta</a></li>
+            <li><a href="gallery/varities/Starters/starter.html">Starter</a></li>
+            <li><a href="gallery/varities/Egg/Eggs.html">Egg</a></li>
+            <li><a href="gallery/varities/Non Veg/nonveg.html">Non Veg</a></li>
+            <li><a href="gallery/varities/Gravy/gravy.html">Gravy</a></li>
+            <li><a href="gallery/varities/Dosa & Idli/Dosa,idli.html">Dosa & Dinner</a></li>
+            <li><a href="gallery/varities/Icecream/icecream.html">Icecream</a></li>
+            <li><a href="gallery/varities/Beverages/beverage.html">Beverages</a></li>
+            <li><a href="gallery/varities/Fruit juice/fj.html">Fruit Juice</a></li>
+        </ul>
+    </div>
+    <!----Designer----->
+    <div class="designedby">
+        <a href="Others/Designer.html"><h2><b>Designed By Mathan Kumar</b></h2></a>
+        <br>
+        <p>Mathan Kumar - Ph: 8870270176 <a href="tel:+918870270176"><i class="fa fa-phone"></i></a> <a href="https://wa.me/8870270176"><i class="fa fa-whatsapp"></i></a> Mail:<a href="https://mail.google.com/mail/?view=cm&fs=1&to=mathankumar.sr.2@gmail.com"> mathankumar.sr.2@gmail.com</a></p>
+       </div>
+<script src='js.js'></script>
+</body>
+</html>

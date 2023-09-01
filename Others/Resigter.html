@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resigter Page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:  rgb(199, 204, 207);
+        }
+        .box{
+            background: #58c4cc;
+            color: black;
+            padding: 50px;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+        }
+        .user{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: -50px;
+            left: 100px;
+        }
+        p{
+            font-weight: bold;
+            margin: 0;
+            padding: 10px;
+        }
+        input{
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]{
+            border: none;
+            height: 40px;
+            background: #2196f3;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 20px;
+            cursor: pointer
+        }
+        input[type="submit"]:hover{
+            background: navy;
+        }
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 20px;
+            color: green;
+        }
+        a:hover{
+            color: red;
+        }
+        #errorbox{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="/gallery/login logo.jpg" class="user">
+        <h1><center>Register Here</center></h1>
+        <form name="regform" onsubmit="return rform()">
+
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p>Mail Id</p>
+            <input type="text" name="mail" placeholder="Enter Mail Id">
+      
+            <p>Password</p>
+            <input type="password" name="userpass" placeholder="Enter Password">
+            <p>Confirm Password</p>
+            <input type="password" name="userpass2" placeholder="Enter Password">
+            <div id="errorbox"></div>
+                <br>
+                <input type="submit" value="Register">
+                <br><br>
+                
+                <a href="login.html">Already Have a Acoount ?</a>
+           
+        </form>
+    </div>
+    <script src="/js.js"></script>
+</body>
+</html>
